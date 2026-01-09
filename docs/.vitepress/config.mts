@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
 
+const base = '/docs-jvm/'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base,
   title: "jvm",
   description: "Doocs 开源社区",
   themeConfig: {
